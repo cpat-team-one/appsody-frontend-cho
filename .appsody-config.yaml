@@ -1,2 +1,8 @@
 project-name: appsody-frontend-cho
 stack: kabanero/nodejs-express:0.2
+metadata:
+    namespace: dev-cho
+    spec:
+        env:
+          - name: APPSODY_BACKEND_DEFAULT_URL
+            value: http://appsody-backend-{initials}:3000/
