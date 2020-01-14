@@ -57,7 +57,7 @@ metadata:
   name: appsody-frontend-cho
 spec:
   applicationImage: dev.local/appsody-frontend-cho
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
